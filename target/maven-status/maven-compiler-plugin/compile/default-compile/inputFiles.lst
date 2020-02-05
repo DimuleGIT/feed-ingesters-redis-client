@@ -1,0 +1,10 @@
+/Users/dmitrijtitov/Work/Oddschecker/feed-ingesters-redis-client/src/main/java/com/oddschecker/nfg/feedingestersredisclient/exception/ResourceNotFoundException.java
+/Users/dmitrijtitov/Work/Oddschecker/feed-ingesters-redis-client/src/main/java/com/oddschecker/nfg/feedingestersredisclient/controller/JedisController.java
+/Users/dmitrijtitov/Work/Oddschecker/feed-ingesters-redis-client/src/main/java/com/oddschecker/nfg/feedingestersredisclient/service/impl/RedisServiceImpl.java
+/Users/dmitrijtitov/Work/Oddschecker/feed-ingesters-redis-client/src/main/java/com/oddschecker/nfg/feedingestersredisclient/service/RedisService.java
+/Users/dmitrijtitov/Work/Oddschecker/feed-ingesters-redis-client/src/main/java/com/oddschecker/nfg/feedingestersredisclient/configuration/BaseConfiguration.java
+/Users/dmitrijtitov/Work/Oddschecker/feed-ingesters-redis-client/src/main/java/com/oddschecker/nfg/feedingestersredisclient/util/RedisProperties.java
+/Users/dmitrijtitov/Work/Oddschecker/feed-ingesters-redis-client/src/main/java/com/oddschecker/nfg/feedingestersredisclient/model/RedisResponse.java
+/Users/dmitrijtitov/Work/Oddschecker/feed-ingesters-redis-client/src/main/java/com/oddschecker/nfg/feedingestersredisclient/util/RedisUtil.java
+/Users/dmitrijtitov/Work/Oddschecker/feed-ingesters-redis-client/src/main/java/com/oddschecker/nfg/feedingestersredisclient/FeedIngestersRedisClientApplication.java
+/Users/dmitrijtitov/Work/Oddschecker/feed-ingesters-redis-client/src/main/java/com/oddschecker/nfg/feedingestersredisclient/configuration/RedisConfiguration.java

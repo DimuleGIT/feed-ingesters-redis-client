@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6b383e8-0a83-49df-ac79-b3236b5805fd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XLhNOUTC1bwtMNXa7gvdpVInge" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/src/main/java/com/oddschecker/nfg/feedingestersredisclient/exception/ResourceNotFoundException.java&#10;/Users/dmitrijtitov/Work/Oddschecker/feed-ingesters-redis-client/src/main/java/com/oddschecker/nfg/feedingestersredisclient/controller/JedisController.java&#10;/Users/dmitrijtitov/Work/Oddschecker/feed-ingesters-redis-client/.gitignore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="com.oddschecker.nfg.feedingestersredisclient.service.impl.RedisServiceImpl" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.oddschecker.nfg.feedingestersredisclient" />
+      <recent name="com.oddschecker.nfg.feedingestersredisclient.controller.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.oddschecker.nfg.feedingestersredisclient.configuration" />
+      <recent name="com.oddschecker.nfg.feedingestersredisclient.util" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.oddschecker.nfg.feedingestersredisclient.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.feed-ingesters-redis-client">
+    <configuration name="feed-ingesters-redis-client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.oddschecker.nfg.feedingestersredisclient.FeedIngestersRedisClientApplication" />
+      <module name="feed-ingesters-redis-client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeedIngestersRedisClientApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="feed-ingesters-redis-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oddschecker.nfg.feedingestersredisclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oddschecker.nfg.feedingestersredisclient" />
+      <option name="MAIN_CLASS_NAME" value="com.oddschecker.nfg.feedingestersredisclient.FeedIngestersRedisClientApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="feed-ingesters-redis-client [clean...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.feed-ingesters-redis-client" />
+      <item itemvalue="JUnit.FeedIngestersRedisClientApplicationTests.contextLoads" />
+      <item itemvalue="Maven.feed-ingesters-redis-client [clean...]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FeedIngestersRedisClientApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6b383e8-0a83-49df-ac79-b3236b5805fd" name="Default Changelist" comment="" />
+      <created>1580831241853</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580831241853</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580850559423">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="184" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1580850559423" />
+    <state x="773" y="264" key="#com.intellij.ide.util.MemberChooser" timestamp="1580907570154">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1147" y="264" key="#com.intellij.ide.util.MemberChooser/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580831975677" />
+    <state x="773" y="264" key="#com.intellij.ide.util.MemberChooser/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1580907570154" />
+    <state x="580" y="223" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1580850467661" />
+    <state x="457" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580850545532">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="457" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1580850545532" />
+    <state x="37" y="392" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580849327773">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="37" y="392" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.877@0.23.1440.877" timestamp="1580849327773" />
+    <state x="-1284" y="417" width="649" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580832062846">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1284" y="417" width="649" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580832062846" />
+    <state x="375" y="351" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1580849329507">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="375" y="351" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.877@0.23.1440.877" timestamp="1580849329507" />
+    <state x="283" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580850409705">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="283" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877@0.23.1440.877" timestamp="1580850409705" />
+    <state x="698" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580907919769">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="698" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1580907919769" />
+    <state x="-1820" y="123" width="1720" height="857" key="DiffContextDialog" timestamp="1580909672860">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1820" y="123" width="1720" height="857" key="DiffContextDialog/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580909672860" />
+    <state width="1878" height="326" key="GridCell.Tab.0.bottom" timestamp="1580909230651">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="326" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1580909230651" />
+    <state width="1398" height="326" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1580884463986" />
+    <state width="1878" height="326" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1580903853158" />
+    <state width="1878" height="326" key="GridCell.Tab.0.center" timestamp="1580909230650">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="326" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1580909230650" />
+    <state width="1398" height="326" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1580884463985" />
+    <state width="1878" height="326" key="GridCell.Tab.0.center/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1580903853158" />
+    <state width="1878" height="326" key="GridCell.Tab.0.left" timestamp="1580909230648">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="326" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1580909230648" />
+    <state width="1398" height="326" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1580884463984" />
+    <state width="1878" height="326" key="GridCell.Tab.0.left/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1580903853158" />
+    <state width="1878" height="326" key="GridCell.Tab.0.right" timestamp="1580909230650">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="326" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1580909230650" />
+    <state width="1398" height="326" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1580884463986" />
+    <state width="1878" height="326" key="GridCell.Tab.0.right/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1580903853158" />
+    <state width="1878" height="340" key="GridCell.Tab.1.bottom" timestamp="1580896319880">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="340" key="GridCell.Tab.1.bottom/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1580896319880" />
+    <state width="1878" height="340" key="GridCell.Tab.1.center" timestamp="1580896319879">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="340" key="GridCell.Tab.1.center/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1580896319879" />
+    <state width="1878" height="340" key="GridCell.Tab.1.left" timestamp="1580896319879">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="340" key="GridCell.Tab.1.left/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1580896319879" />
+    <state width="1878" height="340" key="GridCell.Tab.1.right" timestamp="1580896319880">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="340" key="GridCell.Tab.1.right/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1580896319880" />
+    <state x="-1451" y="209" key="SettingsEditor" timestamp="1580909775000">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1451" y="190" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@-1920.0.1920.1080" timestamp="1580831484588" />
+    <state x="-1451" y="209" key="SettingsEditor/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580909775000" />
+    <state x="637" y="315" width="645" height="472" key="find.popup" timestamp="1580894714324">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="637" y="315" width="645" height="472" key="find.popup/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1580894714324" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1580883686419">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.23.1440.877@0.23.1440.877" timestamp="1580883686419" />
+    <state x="625" y="258" width="894" height="815" key="search.everywhere.popup" timestamp="1580907669473">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1295" y="258" key="search.everywhere.popup/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580832460158" />
+    <state x="625" y="258" width="894" height="815" key="search.everywhere.popup/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1580907669473" />
+    <state x="469" y="218" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1580882755324" />
+    <state x="625" y="258" width="894" height="815" key="search.everywhere.popup/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1580895525488" />
+  </component>
+</project>

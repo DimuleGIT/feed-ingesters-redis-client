@@ -1,0 +1,11 @@
+com/oddschecker/nfg/feedingestersredisclient/model/RedisResponse$RedisResponseBuilder.class
+com/oddschecker/nfg/feedingestersredisclient/util/RedisProperties.class
+com/oddschecker/nfg/feedingestersredisclient/configuration/BaseConfiguration.class
+com/oddschecker/nfg/feedingestersredisclient/FeedIngestersRedisClientApplication.class
+com/oddschecker/nfg/feedingestersredisclient/service/RedisService.class
+com/oddschecker/nfg/feedingestersredisclient/util/RedisUtil.class
+com/oddschecker/nfg/feedingestersredisclient/configuration/RedisConfiguration.class
+com/oddschecker/nfg/feedingestersredisclient/controller/JedisController.class
+com/oddschecker/nfg/feedingestersredisclient/exception/ResourceNotFoundException.class
+com/oddschecker/nfg/feedingestersredisclient/model/RedisResponse.class
+com/oddschecker/nfg/feedingestersredisclient/service/impl/RedisServiceImpl.class
