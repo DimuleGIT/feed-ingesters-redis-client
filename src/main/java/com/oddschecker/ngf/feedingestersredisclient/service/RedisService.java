@@ -8,7 +8,7 @@ import java.util.Set;
 
 public interface RedisService {
 
-    RedisResponse<List<String>> getRedisKeysByPattern(Map<String, String> keyPatternMap) throws Exception;
+    RedisResponse<List<String>> getRedisKeysByPattern(Map<String, String> keyPatternMap);
 
     RedisResponse<String> deleteRedisKeysByPattern(Map<String, String> keyPattern) throws Exception ;
 

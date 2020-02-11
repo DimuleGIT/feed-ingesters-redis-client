@@ -3,6 +3,7 @@ package com.oddschecker.ngf.feedingestersredisclient.service.impl;
 import com.oddschecker.ngf.feedingestersredisclient.model.RedisResponse;
 import com.oddschecker.ngf.feedingestersredisclient.model.RedisType;
 import com.oddschecker.ngf.feedingestersredisclient.service.RedisService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.retry.annotation.Backoff;
 import org.springframework.retry.annotation.Retryable;
@@ -16,6 +17,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
+@Slf4j
 public class RedisServiceImpl implements RedisService {
 
     public static final String PATTERN = "pattern";
@@ -32,8 +34,8 @@ public class RedisServiceImpl implements RedisService {
     }
 
     @Override
-    @Retryable(value = JedisConnectionException.class, backoff = @Backoff(delay = 1000))
-    public RedisResponse<List<String>> getRedisKeysByPattern(final Map<String, String> keyPatternMap) throws Exception {
+    @Retryable(value = JedisConnectionException.class, maxAttempts = 5, backoff = @Backoff(delay = 3000))
+    public RedisResponse<List<String>> getRedisKeysByPattern(final Map<String, String> keyPatternMap) {
 
         try (final Jedis jedis = jedisPool.getResource()) {
 
@@ -50,7 +52,7 @@ public class RedisServiceImpl implements RedisService {
     }
 
     @Override
-    @Retryable(value = JedisConnectionException.class, maxAttempts = 3, backoff = @Backoff(delay = 1000))
+    @Retryable(value = JedisConnectionException.class, maxAttempts = 5, backoff = @Backoff(delay = 3000))
     public RedisResponse getRedisKeyPost(final Map<String, String> keyPatternMap) {
 
         final String key = keyPatternMap.get(KEY);
@@ -61,7 +63,7 @@ public class RedisServiceImpl implements RedisService {
     }
 
     @Override
-    @Retryable(value = JedisConnectionException.class, maxAttempts = 3, backoff = @Backoff(delay = 1000))
+    @Retryable(value = JedisConnectionException.class, maxAttempts = 5, backoff = @Backoff(delay = 3000))
     public RedisResponse getRedisKey(final String key) {
         try (final Jedis jedis = jedisPool.getResource()) {
 
@@ -88,7 +90,7 @@ public class RedisServiceImpl implements RedisService {
     }
 
     @Override
-    @Retryable(value = JedisConnectionException.class, maxAttempts = 2, backoff = @Backoff(delay = 1000))
+    @Retryable(value = JedisConnectionException.class, maxAttempts = 5, backoff = @Backoff(delay = 3000))
     public RedisResponse<String> deleteRedisKey(final String key) {
         try (final Jedis jedis = jedisPool.getResource()) {
 
@@ -104,7 +106,7 @@ public class RedisServiceImpl implements RedisService {
     }
 
     @Override
-    @Retryable(value = JedisConnectionException.class, maxAttempts = 2, backoff = @Backoff(delay = 1000))
+    @Retryable(value = JedisConnectionException.class, maxAttempts = 5, backoff = @Backoff(delay = 3000))
     public RedisResponse<String> deleteRedisKeysByPattern(final Map<String, String> keyPatternMap) {
         try (final Jedis jedis = jedisPool.getResource()) {
 
@@ -126,7 +128,7 @@ public class RedisServiceImpl implements RedisService {
     }
 
     @Override
-    @Retryable(value = JedisConnectionException.class, maxAttempts = 2, backoff = @Backoff(delay = 1000))
+    @Retryable(value = JedisConnectionException.class, maxAttempts = 5, backoff = @Backoff(delay = 3000))
     public String getRedisInfo(final String section) {
         try (final Jedis jedis = jedisPool.getResource()) {
             return Optional.ofNullable(section)

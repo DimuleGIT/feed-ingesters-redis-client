@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6b383e8-0a83-49df-ac79-b3236b5805fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/model/RedisType.java" afterDir="false" />
+    <list default="true" id="f6b383e8-0a83-49df-ac79-b3236b5805fd" name="Default Changelist" comment="Change delay sec">
+      <change afterPath="$PROJECT_DIR$/lombok.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/nfg/feedingestersredisclient/FeedIngestersRedisClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/FeedIngestersRedisClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/nfg/feedingestersredisclient/configuration/BaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/configuration/BaseConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/nfg/feedingestersredisclient/configuration/RedisConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/configuration/RedisConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/nfg/feedingestersredisclient/controller/JedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/controller/JedisController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/nfg/feedingestersredisclient/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/nfg/feedingestersredisclient/model/RedisResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/model/RedisResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/nfg/feedingestersredisclient/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/service/RedisService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/nfg/feedingestersredisclient/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/service/impl/RedisServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/nfg/feedingestersredisclient/util/RedisProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/util/RedisProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/nfg/feedingestersredisclient/util/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/util/RedisUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/oddschecker/nfg/feedingestersredisclient/FeedIngestersRedisClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oddschecker/ngf/feedingestersredisclient/FeedIngestersRedisClientApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oddschecker/nfg/feedingestersredisclient/FeedIngestersRedisClientApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oddschecker/nfg/feedingestersredisclient/configuration/BaseConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oddschecker/nfg/feedingestersredisclient/configuration/RedisConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oddschecker/nfg/feedingestersredisclient/controller/JedisController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oddschecker/nfg/feedingestersredisclient/exception/ResourceNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oddschecker/nfg/feedingestersredisclient/model/RedisResponse$RedisResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oddschecker/nfg/feedingestersredisclient/model/RedisResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oddschecker/nfg/feedingestersredisclient/service/RedisService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oddschecker/nfg/feedingestersredisclient/service/impl/RedisServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oddschecker/nfg/feedingestersredisclient/util/RedisProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oddschecker/nfg/feedingestersredisclient/util/RedisUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oddschecker/nfg/feedingestersredisclient/FeedIngestersRedisClientApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/service/impl/RedisServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +42,14 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="IntroduceConstantDialog.RECENTS_KEY">
       <recent name="com.oddschecker.nfg.feedingestersredisclient.service.impl.RedisServiceImpl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.oddschecker.nfg.feedingestersredisclient" />
@@ -165,6 +147,14 @@
       <option name="presentableId" value="Default" />
       <updated>1580831241853</updated>
     </task>
+    <task id="LOCAL-00001" summary="Additional implementation">
+      <created>1581340479475</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581340479475</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +174,9 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Additional implementation" />
+    <MESSAGE value="Change delay sec" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change delay sec" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1675" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580988438785">
@@ -222,6 +215,11 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="698" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1580907919769" />
+    <state x="473" y="156" key="CommitChangelistDialog2" timestamp="1581410348818">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="473" y="156" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1581410348818" />
+    <state x="473" y="156" key="CommitChangelistDialog2/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1581340479305" />
     <state width="499" height="466" key="DebuggerActiveHint" timestamp="1581261802799">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -230,34 +228,34 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1820" y="123" width="1720" height="857" key="DiffContextDialog/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580909672860" />
-    <state width="1878" height="257" key="GridCell.Tab.0.bottom" timestamp="1581277938496">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1878" height="257" key="GridCell.Tab.0.bottom" timestamp="1581410449434">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="326" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580988465060" />
-    <state width="1878" height="326" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1580909230651" />
+    <state width="1878" height="257" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1581410449434" />
     <state width="1878" height="257" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581277938496" />
-    <state width="1878" height="257" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1581063830665" />
-    <state width="1878" height="257" key="GridCell.Tab.0.center" timestamp="1581277938495">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1878" height="257" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1581408870012" />
+    <state width="1878" height="257" key="GridCell.Tab.0.center" timestamp="1581410449432">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="326" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580988465060" />
-    <state width="1878" height="326" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1580909230650" />
+    <state width="1878" height="257" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1581410449432" />
     <state width="1878" height="257" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581277938495" />
-    <state width="1878" height="257" key="GridCell.Tab.0.center/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1581063830664" />
-    <state width="1878" height="257" key="GridCell.Tab.0.left" timestamp="1581277938494">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1878" height="257" key="GridCell.Tab.0.center/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1581408870010" />
+    <state width="1878" height="257" key="GridCell.Tab.0.left" timestamp="1581410449432">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="326" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580988465060" />
-    <state width="1878" height="326" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1580909230648" />
+    <state width="1878" height="257" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1581410449432" />
     <state width="1878" height="257" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581277938494" />
-    <state width="1878" height="257" key="GridCell.Tab.0.left/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1581063830664" />
-    <state width="1878" height="257" key="GridCell.Tab.0.right" timestamp="1581277938495">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1878" height="257" key="GridCell.Tab.0.left/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1581408870009" />
+    <state width="1878" height="257" key="GridCell.Tab.0.right" timestamp="1581410449433">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="326" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580988465060" />
-    <state width="1878" height="326" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1580909230650" />
+    <state width="1878" height="257" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1581410449433" />
     <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581277938495" />
-    <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1581063830665" />
+    <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1581408870011" />
     <state width="1878" height="268" key="GridCell.Tab.1.bottom" timestamp="1581261827468">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -282,21 +280,23 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1259" y="269" key="RollbackChangesDialog/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580910172540" />
-    <state x="-1451" y="209" key="SettingsEditor" timestamp="1580909775000">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="469" y="209" key="SettingsEditor" timestamp="1581410232243">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="-1451" y="190" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@-1920.0.1920.1080" timestamp="1580831484588" />
     <state x="-1451" y="209" key="SettingsEditor/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580909775000" />
+    <state x="469" y="209" key="SettingsEditor/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1581410232243" />
     <state x="-1820" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580910108621">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1820" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580910108621" />
-    <state x="478" y="265" width="722" height="472" key="find.popup" timestamp="1581277845176">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="637" y="315" width="672" height="472" key="find.popup" timestamp="1581410381262">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="-1283" y="315" width="645" height="472" key="find.popup/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580988371087" />
+    <state x="637" y="315" width="672" height="472" key="find.popup/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1581410381262" />
     <state x="478" y="265" width="722" height="472" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1581277845176" />
-    <state x="637" y="315" width="645" height="472" key="find.popup/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1580894714324" />
+    <state x="637" y="315" width="672" height="472" key="find.popup/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1581408590318" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1581276748846">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
