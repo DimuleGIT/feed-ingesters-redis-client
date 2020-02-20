@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6b383e8-0a83-49df-ac79-b3236b5805fd" name="Default Changelist" comment="Change delay sec">
-      <change afterPath="$PROJECT_DIR$/lombok.config" afterDir="false" />
+    <list default="true" id="f6b383e8-0a83-49df-ac79-b3236b5805fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-docker.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/service/RedisService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/ngf/feedingestersredisclient/service/impl/RedisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/feed-ingesters-redis-client.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/feed-ingesters-redis-client-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/feed-ingesters-redis-client-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/feed-ingesters-redis-client-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/feed-ingesters-redis-client-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.oddschecker.nfg.feedingestersredisclient.FeedIngestersRedisClientApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.oddschecker.nfg.feedingestersredisclient.FeedIngestersRedisClientApplicationTests.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/src/main/java/com/oddschecker/nfg/feedingestersredisclient/exception/ResourceNotFoundException.java&#10;/Users/dmitrijtitov/Work/Oddschecker/feed-ingesters-redis-client/src/main/java/com/oddschecker/nfg/feedingestersredisclient/controller/JedisController.java&#10;/Users/dmitrijtitov/Work/Oddschecker/feed-ingesters-redis-client/.gitignore" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -45,11 +53,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.oddschecker.nfg.feedingestersredisclient.model" />
+    </key>
     <key name="IntroduceConstantDialog.RECENTS_KEY">
       <recent name="com.oddschecker.nfg.feedingestersredisclient.service.impl.RedisServiceImpl" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.oddschecker.nfg.feedingestersredisclient" />
@@ -59,8 +67,9 @@
       <recent name="com.oddschecker.nfg.feedingestersredisclient.configuration" />
       <recent name="com.oddschecker.nfg.feedingestersredisclient.util" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.oddschecker.nfg.feedingestersredisclient.model" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Application.feed-ingesters-redis-client">
@@ -154,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581340479475</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Change delay sec">
+      <created>1581410467018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581410467018</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,10 +231,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="698" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1580907919769" />
-    <state x="473" y="156" key="CommitChangelistDialog2" timestamp="1581410348818">
+    <state x="473" y="156" key="CommitChangelistDialog2" timestamp="1581410466931">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="473" y="156" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1581410348818" />
+    <state x="473" y="156" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1581410466931" />
     <state x="473" y="156" key="CommitChangelistDialog2/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1581340479305" />
     <state width="499" height="466" key="DebuggerActiveHint" timestamp="1581261802799">
       <screen x="0" y="23" width="1440" height="877" />
@@ -228,53 +244,61 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1820" y="123" width="1720" height="857" key="DiffContextDialog/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580909672860" />
-    <state width="1878" height="257" key="GridCell.Tab.0.bottom" timestamp="1581410449434">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1398" height="326" key="GridCell.Tab.0.bottom" timestamp="1582185487696">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="326" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580988465060" />
-    <state width="1878" height="257" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1581410449434" />
-    <state width="1878" height="257" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581277938496" />
+    <state width="1878" height="268" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1582032453308" />
+    <state width="1398" height="326" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582185487696" />
     <state width="1878" height="257" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1581408870012" />
-    <state width="1878" height="257" key="GridCell.Tab.0.center" timestamp="1581410449432">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1878" height="326" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1582121521947" />
+    <state width="1398" height="326" key="GridCell.Tab.0.center" timestamp="1582185487695">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="326" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580988465060" />
-    <state width="1878" height="257" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1581410449432" />
-    <state width="1878" height="257" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581277938495" />
+    <state width="1878" height="268" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1582032453307" />
+    <state width="1398" height="326" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1582185487695" />
     <state width="1878" height="257" key="GridCell.Tab.0.center/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1581408870010" />
-    <state width="1878" height="257" key="GridCell.Tab.0.left" timestamp="1581410449432">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1878" height="326" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1582121521947" />
+    <state width="1398" height="326" key="GridCell.Tab.0.left" timestamp="1582185487694">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="326" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580988465060" />
-    <state width="1878" height="257" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1581410449432" />
-    <state width="1878" height="257" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581277938494" />
+    <state width="1878" height="268" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1582032453307" />
+    <state width="1398" height="326" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1582185487694" />
     <state width="1878" height="257" key="GridCell.Tab.0.left/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1581408870009" />
-    <state width="1878" height="257" key="GridCell.Tab.0.right" timestamp="1581410449433">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1878" height="326" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1582121521946" />
+    <state width="1398" height="326" key="GridCell.Tab.0.right" timestamp="1582185487695">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="326" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580988465060" />
-    <state width="1878" height="257" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1581410449433" />
-    <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581277938495" />
+    <state width="1878" height="268" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1582032453307" />
+    <state width="1398" height="326" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1582185487695" />
     <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1581408870011" />
-    <state width="1878" height="268" key="GridCell.Tab.1.bottom" timestamp="1581261827468">
+    <state width="1878" height="326" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1582121521947" />
+    <state width="1398" height="268" key="GridCell.Tab.1.bottom" timestamp="1582185117352">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="268" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581261827468" />
+    <state width="1878" height="268" key="GridCell.Tab.1.bottom/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1582032453308" />
+    <state width="1398" height="268" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582185117352" />
     <state width="1878" height="340" key="GridCell.Tab.1.bottom/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1580896319880" />
-    <state width="1878" height="268" key="GridCell.Tab.1.center" timestamp="1581261827467">
+    <state width="1398" height="268" key="GridCell.Tab.1.center" timestamp="1582185117352">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="268" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1581261827467" />
+    <state width="1878" height="268" key="GridCell.Tab.1.center/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1582032453308" />
+    <state width="1398" height="268" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1582185117352" />
     <state width="1878" height="340" key="GridCell.Tab.1.center/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1580896319879" />
-    <state width="1878" height="268" key="GridCell.Tab.1.left" timestamp="1581261827466">
+    <state width="1398" height="268" key="GridCell.Tab.1.left" timestamp="1582185117351">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="268" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1581261827466" />
+    <state width="1878" height="268" key="GridCell.Tab.1.left/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1582032453308" />
+    <state width="1398" height="268" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1582185117351" />
     <state width="1878" height="340" key="GridCell.Tab.1.left/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1580896319879" />
-    <state width="1878" height="268" key="GridCell.Tab.1.right" timestamp="1581261827467">
+    <state width="1398" height="268" key="GridCell.Tab.1.right" timestamp="1582185117352">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="268" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1581261827467" />
+    <state width="1878" height="268" key="GridCell.Tab.1.right/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1582032453308" />
+    <state width="1398" height="268" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1582185117352" />
     <state width="1878" height="340" key="GridCell.Tab.1.right/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1580896319880" />
     <state x="-1259" y="269" key="RollbackChangesDialog" timestamp="1580910172540">
       <screen x="-1920" y="23" width="1920" height="1057" />
@@ -286,6 +310,10 @@
     <state x="-1451" y="190" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@-1920.0.1920.1080" timestamp="1580831484588" />
     <state x="-1451" y="209" key="SettingsEditor/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580909775000" />
     <state x="469" y="209" key="SettingsEditor/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1581410232243" />
+    <state x="320" y="203" key="Vcs.Push.Dialog.v2" timestamp="1582185516353">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="203" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1582185516353" />
     <state x="-1820" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580910108621">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
@@ -301,12 +329,12 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.23.1440.877@0.23.1440.877" timestamp="1581276748846" />
-    <state x="625" y="258" width="894" height="815" key="search.everywhere.popup" timestamp="1580907669473">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="469" y="218" width="670" height="676" key="search.everywhere.popup" timestamp="1582183942770">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="-1295" y="258" key="search.everywhere.popup/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1580832460158" />
     <state x="625" y="258" width="894" height="815" key="search.everywhere.popup/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1580907669473" />
-    <state x="469" y="218" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1580882755324" />
+    <state x="469" y="218" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1582183942770" />
     <state x="625" y="258" width="894" height="815" key="search.everywhere.popup/0.23.1920.1057/-1920.23.1920.1057@0.23.1920.1057" timestamp="1580895525488" />
   </component>
 </project>
