@@ -1,0 +1,308 @@
+{
+	"info": {
+		"_postman_id": "4115918b-8a41-4bad-a3f7-6a8563198fc1",
+		"name": "OddsRedis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PushApi",
+			"item": [
+				{
+					"name": "Post manual bets",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "cca2783f-949b-4163-808a-ff06d3feeb0c",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Source",
+								"value": "BetVictor-Ingester",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    {\n        \"betName\": \"Red Allure\",\n        \"marketName\": \"Cuban Spirit vs Red Allure\",\n        \"subeventName\": \"WOLVERHAMPTON 20:10\",\n        \"subeventStartTime\": \"2020-02-10T20:10:00Z\",\n        \"subeventEndTime\": null,\n        \"subeventType\": null,\n        \"eventName\": \"Wolverhampton\",\n        \"categoryName\": \"Horse Racing\",\n        \"odds\": \"N/A\",\n        \"oddsDecimal\": 0,\n        \"oddsUS\": \"N/A\",\n        \"bog\": false,\n        \"line\": null,\n        \"originatorId\": \"VC_364-128960598-77354514500\",\n        \"bookmakerCode\": \"VC\",\n        \"inPlay\": false,\n        \"status\": \"FAILED\",\n        \"eachWayDenominator\": 1,\n        \"eachWayPlaces\": 1,\n        \"raceNumber\": null,\n        \"timestamp\": \"2020-02-10T10:20:13.0945Z\",\n        \"meta\": null\n    }\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8083/v1/bets/manual",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"v1",
+								"bets",
+								"manual"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Get redis info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/v1/redis/info/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"v1",
+						"redis",
+						"info",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get redis values by key",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/v1/redis/VC-VC_240-6316510-76522482200",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"v1",
+						"redis",
+						"VC-VC_240-6316510-76522482200"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get redis keay by pattern",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "62258b41-9ad2-4777-b272-b2a6fdec4fe9",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"    var jsonData = JSON.parse(responseBody);",
+							"     ",
+							"     pm.environment.set(\"diffKeys\", jsonData.value);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"pattern\" : \"*BATCH_HorseRacing*\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8082/v1/redis/keys",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"v1",
+						"redis",
+						"keys"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete redis values by key",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/v1/redis/VC-VC_22877-137537010-76961045000",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"v1",
+						"redis",
+						"VC-VC_22877-137537010-76961045000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get redis keys by pattern",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"pattern\" : \"*VC-VC_22877-137537010-769312672*\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8082/v1/redis/keys",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"v1",
+						"redis",
+						"keys"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get redis keys diff",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    \"BATCH_HorseRacing_364_1581066337841_COMPLETE_VC_Horse Racing_364\",\n        \"BATCH_HorseRacing_364_1581066501280_COMPLETE_VC_Horse Racing_364\"\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8082/v1/redis/diff",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"v1",
+						"redis",
+						"diff"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post redis key ",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "cca2783f-949b-4163-808a-ff06d3feeb0c",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"    var jsonData = JSON.parse(responseBody);",
+							"     ",
+							"     //pm.environment.set(\"diffKeys\", jsonData.value);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"key\" : \"BATCH_HorseRacing_364_1581277438663_COMPLETE_VC_Horse Racing_364\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8082/v1/redis/",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"v1",
+						"redis",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
