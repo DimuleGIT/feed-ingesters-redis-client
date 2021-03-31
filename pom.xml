@@ -22,7 +22,7 @@
 
 		<spring-aspects.version>5.2.2.RELEASE</spring-aspects.version>
 		<javax-inject.version>1</javax-inject.version>
-		<guava.version>28.1-jre</guava.version>
+		<guava.version>29.0-jre</guava.version>
 		<modelmapper.version>2.3.5</modelmapper.version>
 		<jackson-dataformat-xml.version>2.10.1</jackson-dataformat-xml.version>
 		<unirest.version>3.3.00</unirest.version>
